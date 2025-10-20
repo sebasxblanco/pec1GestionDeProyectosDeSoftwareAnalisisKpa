@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medidor de Diagnóstico CMMI Nivel 2</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Medidor de Diagnóstico CMMI Nivel 2</h1>
+    </header>
+
+    <main>
+        <h2>Selecciona la KPA a evaluar:</h2>
+        <form method="POST" action="/">
+            <label>
+                <input type="radio" name="kpa" value="gestion_requisitos" required>
+                <span class="checkmark"></span>
+                Gestión de Requisitos
+            </label>
+
+            <label>
+                <input type="radio" name="kpa" value="planificacion_proyectos">
+                <span class="checkmark"></span>
+                Planificación de Proyectos
+            </label>
+
+            <label>
+                <input type="radio" name="kpa" value="seguimiento_control">
+                <span class="checkmark"></span>
+                Seguimiento y Control
+            </label>
+
+            <label>
+                <input type="radio" name="kpa" value="gestion_configuracion">
+                <span class="checkmark"></span>
+                Gestión de Configuración
+            </label>
+
+            <label>
+                <input type="radio" name="kpa" value="aseguramiento_calidad">
+                <span class="checkmark"></span>
+                Aseguramiento de Calidad
+            </label>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>

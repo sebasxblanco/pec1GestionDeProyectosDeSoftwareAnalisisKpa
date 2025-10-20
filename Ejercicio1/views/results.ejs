@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Resultados del análisis del KPA</h1>
+    </header>
+    <main class="results">
+        <div class="percent">
+            <h2>Medidor de diagnóstico CMMI Nivel 2</h2>
+            <div class="circle" id="circle">
+                <span id="percent"><%= percent %>%</span>
+            </div>
+        </div>
+        <div class="comments">
+            <h3>Posibles mejoras:</h3>
+            <ul>
+                <% parcial.forEach(item => { %>
+                    <li><%= item %></li>
+                <% }) %>
+            </ul>
+
+            <h3>Mejorar urgentemente:</h3>
+            <ul>
+                <% sinImplementar.forEach(item => { %>
+                    <li><%= item %></li>
+                <% }) %>
+            </ul>
+        </div>
+        <a href="/"><button><p>Volver al inicio</p></button></a>
+    </main>
+    <script src="/js/results.js"></script>
+</body>
+</html>

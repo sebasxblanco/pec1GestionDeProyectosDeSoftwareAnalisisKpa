@@ -1,0 +1,160 @@
+/* Estilos globales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+body{
+    background-color: #353535;
+}
+/* Contenedores generales */
+header, main, form, label, input {
+  border: 2px solid #2f2f2f;
+  background-color: #2f2f2f;
+  border-radius: 10px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 40px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+  padding: 20px;
+}
+
+/* Main */
+main {
+  display: grid;  
+  place-content: center;
+  width: 30%;
+  min-height: 30vh;
+  margin: 40px auto;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+  padding: 20px;
+  gap: 40px;
+}
+.introducction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:20px;
+}
+.questionsKpa {
+  width: 70%;
+  padding: 100px;
+}
+.questionsForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:30px;
+}
+.questionsForm ul li{
+  list-style: none;
+  margin:20px;
+}
+.questionsForm ul li select {
+  background-color: #353535;
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+/* Radios decorados */
+label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  user-select: none;
+}
+
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #eee;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+label:hover .checkmark {
+  background-color: #ddd;
+}
+
+.checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+  top: 4px;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #3498db;
+}
+
+input[type="radio"]:checked ~ .checkmark::after {
+  display: block;
+}
+
+/* Botón */
+button {
+  background-color: #3498db;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.percent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+    gap:20px;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: conic-gradient(#ddd 0deg, #ddd 360deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    transition: background 0.5s ease;
+}
+.results {
+  width: 70%;
+}
