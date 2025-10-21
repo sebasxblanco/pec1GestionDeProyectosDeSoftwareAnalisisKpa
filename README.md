@@ -22,6 +22,12 @@ Back-End -> Express
 # ![alt text](https://github.com/sebasxblanco/pec1GestionDeProyectosDeSoftwareAnalisisKpa/blob/main/PEC1_GESTION_DE_PROYECTOS_DE_SOFTWARE/5.png)
 # ![alt text](https://github.com/sebasxblanco/pec1GestionDeProyectosDeSoftwareAnalisisKpa/blob/main/PEC1_GESTION_DE_PROYECTOS_DE_SOFTWARE/6.png)
 
+# Ayuda IA ante bugs
+
+# ![alt text](https://github.com/sebasxblanco/pec1GestionDeProyectosDeSoftwareAnalisisKpa/blob/main/PEC1_GESTION_DE_PROYECTOS_DE_SOFTWARE/7.png) ![alt text](https://github.com/sebasxblanco/pec1GestionDeProyectosDeSoftwareAnalisisKpa/blob/main/PEC1_GESTION_DE_PROYECTOS_DE_SOFTWARE/8.png) ![alt text](https://github.com/sebasxblanco/pec1GestionDeProyectosDeSoftwareAnalisisKpa/blob/main/PEC1_GESTION_DE_PROYECTOS_DE_SOFTWARE/9.png)
+
+
+
 # Diferencias entre IA y estudiantes
 
 Las diferencias en el Ejercicio 1 y Ejercicio 2 son claras, a nivel de Diseño, ha sido más 
