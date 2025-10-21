@@ -1,0 +1,22 @@
+[
+  { "id": "REQM.SP1.Q1", "kpa": "REQM", "sp": "SP1", "text": "¿Existe una línea base de requisitos acordada?", "weight": 1 },
+  { "id": "REQM.SP1.Q2", "kpa": "REQM", "sp": "SP1", "text": "¿Se evalúa el impacto de cambios antes de aprobarlos?", "weight": 1 },
+
+  { "id": "PP.SP1.1.Q1", "kpa": "PP", "sp": "SP1.1", "text": "¿Existe un WBS documentado?", "weight": 1 },
+  { "id": "PP.SP1.2.Q1", "kpa": "PP", "sp": "SP1.2", "text": "¿Hay un cronograma con dependencias y hitos?", "weight": 1 },
+  { "id": "PP.SP2.1.Q1", "kpa": "PP", "sp": "SP2.1", "text": "¿Se han identificado riesgos con planes de respuesta?", "weight": 1 },
+
+  { "id": "PMC.SP1.Q1",  "kpa": "PMC", "sp": "SP1", "text": "¿Se monitoriza coste/plazo/alcance con periodicidad?", "weight": 1 },
+  { "id": "PMC.SP2.Q1",  "kpa": "PMC", "sp": "SP2", "text": "¿Se ejecutan acciones correctivas ante desviaciones?", "weight": 1 },
+
+  { "id": "SAM.SP1.Q1",  "kpa": "SAM", "sp": "SP1", "text": "¿Contratos/SLAs con entregables y criterios de aceptación?", "weight": 1 },
+
+  { "id": "MA.SP1.Q1",   "kpa": "MA",  "sp": "SP1", "text": "¿Existe un Plan de medición alineado a objetivos?", "weight": 1 },
+  { "id": "MA.SP2.Q1",   "kpa": "MA",  "sp": "SP2", "text": "¿Definiciones operativas (fuente/frecuencia/responsable)?", "weight": 1 },
+
+  { "id": "PPQA.SP1.Q1", "kpa": "PPQA", "sp": "SP1", "text": "¿Plan de QA independiente del equipo del proyecto?", "weight": 1 },
+  { "id": "PPQA.SP2.Q1", "kpa": "PPQA", "sp": "SP2", "text": "¿Registro de no conformidades y acciones correctivas?", "weight": 1 },
+
+  { "id": "CM.SP1.Q1",   "kpa": "CM", "sp": "SP1", "text": "¿Plan de Gestión de Configuración vigente?", "weight": 1 },
+  { "id": "CM.SP1.Q2",   "kpa": "CM", "sp": "SP1", "text": "¿Baselines y CCB con actas de aprobación?", "weight": 1 }
+]

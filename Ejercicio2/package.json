@@ -1,0 +1,11 @@
+{
+  "name": "cmmi-assessor",
+  "private": true,
+  "workspaces": ["server", "apps/react-app", "apps/vue-app"],
+  "scripts": {
+    "install-all": "npm install --workspaces",
+    "dev:server": "npm --workspace server run dev",
+    "dev:react": "npm --workspace apps/react-app run dev",
+    "dev:vue": "npm --workspace apps/vue-app run dev"
+  }
+}

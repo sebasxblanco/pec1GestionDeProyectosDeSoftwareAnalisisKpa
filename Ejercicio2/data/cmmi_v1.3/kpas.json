@@ -1,0 +1,9 @@
+[
+  { "code": "REQM", "name": "Requirements Management" },
+  { "code": "PP",   "name": "Project Planning" },
+  { "code": "PMC",  "name": "Project Monitoring and Control" },
+  { "code": "SAM",  "name": "Supplier Agreement Management" },
+  { "code": "MA",   "name": "Measurement and Analysis" },
+  { "code": "PPQA", "name": "Process and Product Quality Assurance" },
+  { "code": "CM",   "name": "Configuration Management" }
+]

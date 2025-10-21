@@ -1,0 +1,42 @@
+[
+  {
+    "id": "REQM_IMPACT",
+    "kpa": "REQM",
+    "sp": "SP1",
+    "whenAnswerIn": ["no", "parcial"],
+    "actions": [
+      "Establecer análisis de impacto previo a cualquier cambio de requisito.",
+      "Mantener trazabilidad requisitos ↔ tareas ↔ builds ↔ releases."
+    ]
+  },
+  {
+    "id": "PP_WBS",
+    "kpa": "PP",
+    "sp": "SP1.1",
+    "whenAnswerIn": ["no", "parcial"],
+    "actions": [
+      "Elaborar un WBS con paquetes de trabajo y criterios DoD.",
+      "Publicar y versionar el WBS en el repositorio del proyecto."
+    ]
+  },
+  {
+    "id": "PMC_CORRECTIVE",
+    "kpa": "PMC",
+    "sp": "SP2",
+    "whenAnswerIn": ["no", "parcial"],
+    "actions": [
+      "Definir umbrales de desviación y acciones correctivas estandarizadas.",
+      "Registrar acciones y verificar su eficacia en la siguiente revisión."
+    ]
+  },
+  {
+    "id": "CM_BASELINES",
+    "kpa": "CM",
+    "sp": "SP1",
+    "whenAnswerIn": ["no", "parcial"],
+    "actions": [
+      "Definir baselines por release y aprobarlos en CCB.",
+      "Documentar políticas de ramas y control de cambios."
+    ]
+  }
+]
