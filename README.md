@@ -7,9 +7,9 @@ Herramientas de IA que se han utilizado:
 En el ejercicio 2 propuesto, se ha generado una aplicación.
 Las herramientas empleadas fueron:
 
-Front-End -> React
+1. Front-End -> React
 
-Back-End -> Express
+2. Back-End -> Express
 
 # Prompts Copilot
 
